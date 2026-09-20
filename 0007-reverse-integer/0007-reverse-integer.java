@@ -10,6 +10,9 @@ class Solution {
         if(rev>Integer.MAX_VALUE||rev<Integer.MIN_VALUE){
             return 0;
         }
+        if(x<0){
+            return (int)(-1*rev);
+        }
         return (int) rev;
     }
 }
