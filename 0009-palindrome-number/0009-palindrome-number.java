@@ -6,7 +6,7 @@ class Solution {
         long rev=0;
         int i=x;
        
-        while(x!=0)
+        while(x>0)
         {
             ld=x%10;
             rev=(rev*10)+ld;
