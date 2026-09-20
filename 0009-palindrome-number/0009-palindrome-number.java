@@ -12,10 +12,6 @@ class Solution {
             rev=(rev*10)+ld;
             x=x/10;
         }
-        if(i==rev){
-            return true;
-        }
-        
-        return false;
+        return (rev==i);
     }
 }
