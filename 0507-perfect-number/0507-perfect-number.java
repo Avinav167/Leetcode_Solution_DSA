@@ -1,7 +1,7 @@
 class Solution {
     public boolean checkPerfectNumber(int num) {
-        if(num%2!=0){
-            
+        if((num&1)==1){
+
             return false;
         }
         int sum=1;
